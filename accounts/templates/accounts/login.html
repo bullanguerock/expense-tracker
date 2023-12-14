@@ -25,13 +25,13 @@
     </div>
     <div class="row">
         <div class="col-sm-6">
-            <a href="">Forgot Password?</a>
+            <a href="">Recuperar contraseña?</a>
         </div>
         <div class="col-sm-6 text-right">
-            <a href="{% url 'accounts:register' %}">Register</a>
+            <a href="{% url 'accounts:register' %}">Registrarse</a>
         </div>
     </div>
-    <button style="margin-top: 25px;" type="submit" class="btn btn-primary w-25">Submit</button>
+    <button style="margin-top: 25px;" type="submit" class="btn btn-primary w-25">Entrar</button>
     <input type="hidden" name="next" value="{{ next }}" />
 </form>
 {% endblock auth %}

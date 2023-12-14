@@ -11,20 +11,20 @@
                 Date Filter
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <h6 class="dropdown-item" id="dateNoFilter">Any Date</h6>
+                <h6 class="dropdown-item" id="dateNoFilter">Cualquiera</h6>
                 <div class="dropdown-divider"></div>
-                <h6 class="dropdown-item" id="today">Today</h6>
+                <h6 class="dropdown-item" id="today">Hoy</h6>
                 <div class="dropdown-divider"></div>
-                <h6 class="dropdown-item" id="thisWeek">This Week</h6>
+                <h6 class="dropdown-item" id="thisWeek">Esta semana/h6>
                 <div class="dropdown-divider"></div>
-                <h6 class="dropdown-item" id="previousWeek">Previous Week</h6>
+                <h6 class="dropdown-item" id="previousWeek">La semana pasada</h6>
                 <div class="dropdown-divider"></div>
-                <h6 class="dropdown-item" id="thisMonth">This Month</h6>
+                <h6 class="dropdown-item" id="thisMonth">Este mes</h6>
             </div>
         </div>
         <form class="form-inline my-2 my-lg-0" method="GET" action="" id="searchForm">
-            <input class="form-control mr-sm-2" type="search" id="searchInput" placeholder="Name or Price" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <input class="form-control mr-sm-2" type="search" id="searchInput" placeholder="nombre o precio" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
         </form>
         <div class="navbar-nav mx-5 nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="imageFilter" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -33,9 +33,9 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <h6 class="dropdown-item" id="imageNoFilter">All</h6>
                 <div class="dropdown-divider"></div>
-                <h6 class="dropdown-item" id="hasImage">Has Image</h6>
+                <h6 class="dropdown-item" id="hasImage">Tiene imagen</h6>
                 <div class="dropdown-divider"></div>
-                <h6 class="dropdown-item" id="noImage">No Image</h6>
+                <h6 class="dropdown-item" id="noImage">Sin imagen</h6>
             </div>
         </div>
         <div class="navbar-nav d-flex justify-content-right nav-item dropdown">
@@ -44,7 +44,7 @@
                 {{ username }}
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="{% url 'accounts:logout' %}">Logout</a>
+                <a class="dropdown-item" href="{% url 'accounts:logout' %}">Salir</a>
             </div>
         </div>
     </div>
